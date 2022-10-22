@@ -1,7 +1,14 @@
 body {
+  background-color: #F5F5F5;
+  color: #757575 ;
   font-family: "Roboto regular", Raleway;
-  color: #2f303a;
+
 }
+/*--цвет основного текста #212121 --*/
+/*--вторичный цвет текста #757575 --*/
+/*--акцент #2196F3 --*/
+/* цвет фона #F5F5F5 */
+/* цвет вторичного фона #F5F4FA */
 .list {
   list-style: none;
 }
@@ -79,12 +86,10 @@ body {
 }
 
 /*---------HERO--------*/
-/*--.hero {
+.middle-text{
+ color: #FFFFFF ;
+ background-color: #2F303A; 
 }
-.hero-list {
-}
-.hero-list-item {
-}---*/
 .hero-title {
   font-weight: 700;
   font-size: 14px;
@@ -121,42 +126,7 @@ body {
 
   color: #212121;
 }
-
-/*----.work-list {
-  width: 1170px;
-  height: calc(386 / 1170);
-  left: 215px;
-  top: 966px;
-}
- .list {
-}
-.work-list-img1 {
-  width: 370px;
-  height: calc(294 / 370);
-  left: 215px;
-  top: 1058px;
-}
-.work-list-img2 {
-  width: 370px;
-  height: calc(294 / 370);
-  left: 615px;
-  top: 1058px;
-}
-
-.work-list-img3 {
-  width: 370px;
-  height: calc(294 / 370);
-  left: 1015px;
-  top: 1058px;
-} ---*/
-
-/*-------------TEAM---------*/
 .team {
-  width: 1600px;
-  height: calc(648 / 1600);
-  left: 0px;
-  top: 1446px;
-
   background: #f5f4fa;
 }
 .team-title {
@@ -166,19 +136,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
+  background-color: #F5F4FA;
   color: #212121;
+  
 }
 .team-list {
-  width: 1170px;
   height: calc(368 / 1170);
-  left: 215px;
-  top: 1632px;
 }
 .team-workers {
-  width: 1170px;
   height: calc(368 / 1170);
-  left: 215px;
-  top: 1632px;
 }
 /*-.workers-photo{
 }-*/
@@ -191,6 +157,7 @@ body {
 
   color: #757575;
 }
+
 /*-------------------PAGE2-----------*/
 .middle-btms {
   font-family: "Roboto";
@@ -228,26 +195,23 @@ body {
     color: #000000;
 }
 .adress-name {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .bottom-contact{
-    background-color: grey;
+  background: #2F303A;
 }
 .bottom-mail {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .bottom-tel {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
