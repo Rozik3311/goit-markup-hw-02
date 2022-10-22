@@ -1,0 +1,261 @@
+body {
+  font-family: "Roboto regular", Raleway;
+  color: #2f303a;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*---------HEADER----------*/
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.logo-header{
+    color: #000000;
+}
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-mail:hover,
+.header-mail:focus {
+  color: #2196f3;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
+
+/*---------HERO--------*/
+/*--.hero {
+}
+.hero-list {
+}
+.hero-list-item {
+}---*/
+.hero-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*---------WORK--------*/
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/*----.work-list {
+  width: 1170px;
+  height: calc(386 / 1170);
+  left: 215px;
+  top: 966px;
+}
+ .list {
+}
+.work-list-img1 {
+  width: 370px;
+  height: calc(294 / 370);
+  left: 215px;
+  top: 1058px;
+}
+.work-list-img2 {
+  width: 370px;
+  height: calc(294 / 370);
+  left: 615px;
+  top: 1058px;
+}
+
+.work-list-img3 {
+  width: 370px;
+  height: calc(294 / 370);
+  left: 1015px;
+  top: 1058px;
+} ---*/
+
+/*-------------TEAM---------*/
+.team {
+  width: 1600px;
+  height: calc(648 / 1600);
+  left: 0px;
+  top: 1446px;
+
+  background: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-list {
+  width: 1170px;
+  height: calc(368 / 1170);
+  left: 215px;
+  top: 1632px;
+}
+.team-workers {
+  width: 1170px;
+  height: calc(368 / 1170);
+  left: 215px;
+  top: 1632px;
+}
+/*-.workers-photo{
+}-*/
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*-------------------PAGE2-----------*/
+.middle-btms {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  color: #212121;
+  width: 125px;
+  height: calc(38 / 125);
+  left: 593px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-style: none;
+}
+.middle-btms:hover,
+.middle-btms:focus {
+  background-color: blue;
+}
+/*---BOTTOM---*/
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-bottom{
+    color: #000000;
+}
+.adress-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.bottom-contact{
+    background-color: grey;
+}
+.bottom-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bottom-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bottom-tel:hover,
+.bottom-tel:focus {
+  color: #2196f3;
+}
+.bottom-mail:hover,
+.bottom-mail:focus {
+  color: #2196f3;
+}
